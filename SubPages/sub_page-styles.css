@@ -1,0 +1,50 @@
+p{margin:0 10px 10px}
+a{padding:5px; text-decoration:none; color:#000000;}
+
+div#container{text-align:left}
+div#content p{line-height:1.4}
+
+div#navigation{background:#F6F0E0;}
+div#navigation ul{margin:5px 0; padding:0; list-style-type:none;}
+div#navigation li{margin-bottom:5px;}
+div#navigation{float:left;width:150px;margin-left:-1000px}
+#navigation {
+    position: fixed; /* Fixed position to stay at the top left */
+    top: 0;
+    left: 0;
+    background-color: #F6F0E0; /* Background color for the navigation bar */
+    padding: 15px; /* Padding for the content inside the navigation bar */
+  }
+  
+  #navigation p { 
+    margin: 0; /* Remove default margin for the paragraph */
+  }
+  
+  #navigation ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding for the unordered list */
+  }
+  
+  #navigation li {
+    display: inline; /* Display list items horizontally */
+    margin-bottom:5px; /* Add spacing between list items */
+  }
+  
+  #navigation a {
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  #navigation a:hover {
+    border-bottom: 2px solid white; /* Add bottom border on hover for a visual indication */
+  }
+div#extra{background:#CCC8B3;}
+div#extra{float:left;width:150px;margin-left:-150px}
+
+div#footer{background:#BFBD93;}
+div#footer p{margin:0;padding:5px 10px}
+div#container{width:700px;margin:0 auto}
+div#wrapper{float:left;width:100%}
+div#content{margin: 0 150px}
+
+
+div#footer{clear:left;width:100%}
